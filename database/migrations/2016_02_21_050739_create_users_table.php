@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('last_name');
             $table->string('first_name');
             $table->string('middle_name');
-            $table->date('bithdate');
+            $table->date('birthdate');
             $table->char('gender',1);
             $table->string('role',50);
             $table->char('is_admin',1);
