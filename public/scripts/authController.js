@@ -16,7 +16,7 @@
         vm.login = function() {
 
             var credentials = {
-                email: vm.email,
+                username: vm.username,
                 password: vm.password
             }
             
