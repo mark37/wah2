@@ -1,0 +1,11 @@
+<div class="col-sm-6 col-sm-offset-3">
+    <div class="well">
+        <h3>Users</h3>  
+        <button class="btn btn-primary" style="margin-bottom: 10px" ng-click="user.getUsers()">Get Users!</button>
+        <p>test</p>
+        <div class="alert alert-danger" ng-if="user.error">
+            <strong>There was an error: </strong> {{user.error.error}}
+            <br>Please go back and login again
+        </div>
+    </div>
+</div>
